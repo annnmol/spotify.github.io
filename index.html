@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/logo.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="brand" href="#"><img class="logo" src="/images/spotify.svg" alt="Spotify">Spotify</a></li>
+                <li><a href="/">Home</a></li>
+                <!-- <li><a href="/madeforyou">Made For You</a></li> -->
+                <li><a href="/tending">Trending</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="middle">
+        <div class="left">
+            <div class="album">
+                <img src="/images/album.jpg" alt="" class="albumcover">
+                <p class="albumname">International Villager</p>
+                <p class="albumartist"> By Yo Yo Honey Singh</p>
+            </div>
+
+            <div class="songs">
+                <div class="heading">
+                    <span class="songstitlenumber">#</span>
+                    <span class="songstitlename">TITLE</span>
+                    <span class="songstitleartist">ARTIST</span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">1.</span>
+                    <img id="0" class="songscover" src="/covers/1.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Arijit Singh</span>
+                    <span class="songsduration">02:59</span>
+                    <span><img id="0" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+
+                <div class="songsitem">
+                    <span class="songsnumber">2.</span>
+                    <img id="1" class="songscover" src="/covers/2.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Honey Singh</span>
+                    <span class="songsduration">04:13</span>
+                    <span><img id="1" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">3.</span>
+                    <img id="2" class="songscover" src="/covers/3.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Shaan </span>
+                    <span class="songsduration">05:22</span>
+                    <span><img id="2" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">4.</span>
+                    <img id="3" class="songscover" src="/covers/4.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Alka Yagnik</span>
+                    <span class="songsduration">02:59</span>
+                    <span><img id="3" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">5.</span>
+                    <img id="4" class="songscover" src="/covers/5.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Shreya Goshal</span>
+                    <span class="songsduration">03:46</span>
+                    <span><img id="4" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">6.</span>
+                    <img id="5" class="songscover" src="/covers/6.jpg" alt="">
+                    <span class="songsname"> Humma Humma</span>
+                    <span class="songsartist">Baabu Maan</span>
+                    <span class="songsduration">04:43</span>
+                    <span><img id="5" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">7.</span>
+                    <img id="6" class="songscover" src="/covers/7.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Jubin</span>
+                    <span class="songsduration">02:13</span>
+                    <span><img id="6" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">8.</span>
+                    <img id="7" class="songscover" src="/covers/10.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">A R Rahman</span>
+                    <span class="songsduration">04:45</span>
+                    <span><img id="7" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+                <div class="songsitem">
+                    <span class="songsnumber">9.</span>
+                    <img id="8" class="songscover" src="/covers/9.jpg" alt="">
+                    <span class="songsname">Humma Humma</span>
+                    <span class="songsartist">Mohit Chauhan</span>
+                    <span class="songsduration">01:50</span>
+                    <span><img id="8" class="playicon" src="/images/play-button-black.svg" alt="Play"></span>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="right">
+
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <img src="/images/replay-video.svg" id="replay" alt="">
+
+            <img src="/images/triangle-left-arrow.svg" id="previous" alt="">
+            <img class="play" src="/images/play-button.svg" id="masterPlay" alt="">
+            <img src="/images/triangle-right-arrow.svg" id="next" alt="">
+            <img src="/images/shuffle.svg" id="shuffle" alt="">
+        </div>
+        <div class="songsinfo">
+            <img id="mastercover" src="/covers/10.jpg" alt="">
+            <li id="mastersongname">Humma Humma</li>
+            <li id="mastersongstart">00:00</li>
+            <li id="mastersongend">02:59</li>
+            <li id="mastersongartist">Arijit Singh</li>
+            <img id="gif" src="/images/playing4.gif" alt="">
+        </div>
+    </div>
+
+    <script src="songs.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
